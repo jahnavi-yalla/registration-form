@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registrationform</title>
+</head>
+<body bgcolor="pink">
+    <form action="backend.php">
+
+    <h1>Basic Detail of Register Form</h1>
+    
+    <br>
+    <div>
+    <label for="name">Name</label>
+    <input type="text" name="myname" id="name" placeholder="Enter your full name" required>
+    <div>
+    <br>
+    <div>
+        <label for="email" >Email</label>
+        <input type="email" name="myemail" id="email" placeholder="Enter your email address"  required>
+        <br> 
+    </div>
+    <div>
+        <br>
+        <label for="password" >Password</label>
+        <input type="password" name="mypassword" id="password" placeholder="Create a password"  required title="must contain letters,num,symbols." required>
+   
+        <br> 
+        <div>
+            <br>
+            <label for=" confirm password" >confirm Password</label>
+            <input type="password" name="mypassword" id="confirm password" placeholder="confirm password"  required title="must match password." required>
+
+       
+            <br> 
+            <div>
+                <br>
+                <label for=" DOB" >DOB</label>
+                <input type="date" name="mypassword" id="confirm password" placeholder="select your DOB"  required title="must match password.">
+                
+           
+                <br> 
+                <div>
+                    <br>
+                    <label for="gender" >Gender</label>
+                    Male<input type="radio" name="gender" id="gender">Female<input type="radio" name="gender" id="gender">
+                    
+               
+                    <br> 
+                    <div>
+                        <br>
+                        <label for="mobilenumber" >phone number</label>
+                        <input type="tel" name="mu mobile" id="mobilenumber" placeholder="enter ur mobilenumber">
+                        </div>
+
+                        <div>
+                            <br>
+                            <label for="loc">Location:</label>
+                            <select name="Location" id="loc">
+                                <option value="vij">Vijaywada</option>
+                            <option value="hyd">hyderabad</option>
+                            <option value="rjy">rajahmundry</option>
+                        </select>
+                    </div>
+                    <div>
+                        <br>
+                        <input type="submit" value="submit">
+                        <input type="reset">
+                    </div>
+                    </div>
+
+                </form>
+                
+
+    </body>
+</body>
+</html>
